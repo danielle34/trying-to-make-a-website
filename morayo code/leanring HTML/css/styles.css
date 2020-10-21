@@ -1,0 +1,89 @@
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+font-size: 20px;
+line-height: 1.6em;
+}
+.container {
+    width : 80%
+    margin : auto;
+    overflow : hidden;
+}
+#mainHeader {
+    background: gray;
+    color :white
+
+}
+
+#mainNav{
+    background: rgb(168, 163, 163);
+    color: gold
+}
+#mainNav ul{
+    padding: 0 ;
+    margin : 0 ;
+    list-style: none;
+}
+#mainNav li {
+    display: inline;
+    padding : 5px 10px
+}
+#mainNav a{
+    color:teal;
+    text-decoration: none;
+    font-size: 18px;
+}
+#mainNav li:hover{
+    background:  rgb(184, 179, 179)
+
+}
+#jumbo{
+    background-image: url('/studyofdista.jpg');
+    background-position: center center;
+    min-height: 300 px;
+    text-align: center;
+}
+#jumbo h1{
+    /* color: rebeccapurple */
+    font-size: 16px;
+    padding: 10 px;
+    line-height: 1.6em;
+}
+#work{
+    color : red
+}
+
+#mainNav a{
+    color: green
+    text-decoration :none;
+}
+h1{
+    color :green ;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#main{
+    float: right;
+    width : 70%;
+    padding: 0px;
+    box-sizing: border-box;
+}
+#sidebar {
+    float: left;
+    width: 30%;
+    padding: 10 px;
+    border-right: 2px black;
+    box-sizing: border-box;
+
+}
+
+/* 
+p{
+    border-top:5px solid rgb(8, 10, 6);
+    border-right: 5px dotted green;
+    border-bottom: 5px dashed greenyellow;
+    border-left: 5px dotted green;
+border: 3px solid green
+padding : 10px,20px,10px,20ps;
+padding: 20px
+/*top right botttom left*/
+margin-top ; 40 px; */
+}
